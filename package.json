@@ -1,0 +1,12 @@
+{
+  "name": "mock-api",
+  "version": "1.0.0",
+  "description": "Remove '--watch db.json' from run script in order to pass it as a cli param",
+  "main": "index.js",
+  "scripts": {
+  	"start": "npx json-server --watch db.json",
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC"
+}
