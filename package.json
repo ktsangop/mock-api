@@ -4,9 +4,12 @@
   "description": "Remove '--watch db.json' from run script in order to pass it as a cli param",
   "main": "index.js",
   "scripts": {
-  	"start": "npx json-server --watch db.json",
+    "start": "npx json-server --watch db.json",
     "test": ""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.14.0"
+  }
 }
